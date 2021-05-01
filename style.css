@@ -10,6 +10,14 @@ main.container {
     border-left: 1px solid #eee;
 }
 
+@media (max-width: 600px) {
+    main.container {
+        padding: 15px;
+        border-right: none;
+        border-left: none;
+    }
+}
+
 body {
     margin-top: 15px;
     margin-left: 15px;
