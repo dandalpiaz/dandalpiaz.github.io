@@ -2,7 +2,7 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
 main.container {
-    max-width: 410px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
@@ -10,7 +10,7 @@ main.container {
     border-left: 1px solid #eee;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     main.container {
         padding: 15px;
         border-right: none;
@@ -47,6 +47,11 @@ body {
     bottom: 5px;
 }
 
+.blog .profile {
+    max-width: 50px;
+    margin-left: 10px
+}
+
 h1, h2, strong {
     font-weight: 500;
     color: #667;
@@ -54,13 +59,19 @@ h1, h2, strong {
 
 h1 {
     margin-bottom: 40px;
+    clear: both;
+}
+
+.blog h1 {
+    margin-bottom: 20px;
 }
 
 h2 {
     margin-top: 40px;
+    font-weight: 400;
 }
 
-p, li {
+p, li, figcaption {
     color: #566b78;
     line-height: 1.7;
 }
@@ -79,4 +90,33 @@ a:hover {
     margin: 0px;
     margin-top: 3px;
     font-size: 14px;
+}
+
+.img-banner {
+    width: 100%;
+}
+
+figure {
+    margin: 0px;
+    padding: 7px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    float: right;
+    width: 33%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: none;
+    background-color: #ccc;
+    margin-bottom: 35px;
+    height: 1px;
+}
+
+.tldr {
+    clear: both;
+    background: rgba(200,0,0,0.1);
+    padding: 15px;
+    border-left: 5px solid rgba(200,0,0,0.3);
 }
