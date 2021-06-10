@@ -2,7 +2,7 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
 main.container {
-    max-width: 700px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
