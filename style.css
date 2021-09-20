@@ -71,6 +71,10 @@ h2 {
     font-weight: 400;
 }
 
+p, li {
+    font-size: 15px;
+}
+
 p, li, figcaption {
     color: #566b78;
     line-height: 1.7;
