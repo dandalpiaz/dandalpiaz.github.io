@@ -1,6 +1,14 @@
 
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
+body {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
 main.container {
     max-width: 500px;
     margin-left: auto;
@@ -8,22 +16,6 @@ main.container {
     padding: 30px;
     border-right: 1px solid #eee;
     border-left: 1px solid #eee;
-}
-
-@media (max-width: 750px) {
-    main.container {
-        padding: 15px;
-        border-right: none;
-        border-left: none;
-    }
-}
-
-body {
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 50px;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
 #contact-content {
@@ -123,4 +115,35 @@ hr {
     background: rgba(200,0,0,0.1);
     padding: 15px;
     border-left: 5px solid rgba(200,0,0,0.3);
+}
+
+.darkmode {
+    background: #181818;
+}
+
+.darkmode main.container {
+    border-right: 1px solid rgba(250,250,250,0.05);
+    border-left: 1px solid rgba(250,250,250,0.05);
+}
+
+.darkmode h1, .darkmode p, .darkmode strong, .darkmode h1, .darkmode h2, .darkmode li {
+    color: rgba(255,255,255, 0.85);
+}
+
+.darkmode a {
+    color: powderblue;
+}
+
+@media (max-width: 750px) {
+    main.container {
+        padding: 15px;
+        border-right: none;
+        border-left: none;
+    }
+
+    .darkmode main.container {
+        padding: 15px;
+        border-right: none;
+        border-left: none;
+    }
 }
