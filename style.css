@@ -127,15 +127,15 @@ hr {
 }
 
 .darkmode h1 {
-    color: #A6E22E;
+    color: lightsalmon;
 }
 
 .darkmode h2 {
-    color: salmon;
+    color: lightsalmon;
 }
 
 .darkmode p, .darkmode strong, .darkmode li, .darkmode figcaption {
-    color: #E6DB74;
+    color: rgba(250,250,250,0.8);
 }
 
 .darkmode a {
