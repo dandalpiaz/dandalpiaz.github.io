@@ -126,8 +126,16 @@ hr {
     border-left: 1px solid rgba(250,250,250,0.05);
 }
 
-.darkmode h1, .darkmode p, .darkmode strong, .darkmode h1, .darkmode h2, .darkmode li {
-    color: rgba(255,255,255, 0.85);
+.darkmode h1 {
+    color: #A6E22E;
+}
+
+.darkmode h2 {
+    color: salmon;
+}
+
+.darkmode p, .darkmode strong, .darkmode li, .darkmode figcaption {
+    color: #E6DB74;
 }
 
 .darkmode a {
