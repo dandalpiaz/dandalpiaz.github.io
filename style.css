@@ -155,3 +155,19 @@ hr {
         border-left: none;
     }
 }
+
+#light-toggle {
+    background: none;
+    border: none;
+    color: rgba(250,250,250,0.8);
+    font-size: 25px;
+    float: right;
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+}
+
+#light-toggle:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
