@@ -145,12 +145,14 @@ hr {
 @media (max-width: 750px) {
     main.container {
         padding: 15px;
+        padding-top: 30px;
         border-right: none;
         border-left: none;
     }
 
     .darkmode main.container {
         padding: 15px;
+        padding-top: 30px;
         border-right: none;
         border-left: none;
     }
