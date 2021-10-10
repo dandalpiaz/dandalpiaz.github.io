@@ -1,17 +1,3 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-
-  var mode = getCookie("mode");
-  var lightToggleButton = document.getElementById("light-toggle");
-  if (mode == "light") {
-    document.body.classList.toggle("darkmode");
-    lightToggleButton.classList.toggle("fa-sun");
-    lightToggleButton.classList.toggle("fa-moon");
-    lightToggleButton.style.color = "rgba(0, 0, 0, 0.8)";
-  } else {
-    document.cookie = "mode=dark; expires=Thu, 18 Dec 2030 12:00:00 UTC";
-  }
-
-});
 
 function getCookie(cname) {
   var name = cname + "=";
@@ -28,6 +14,22 @@ function getCookie(cname) {
   }
   return "";
 }
+
+document.addEventListener("DOMContentLoaded", function(event) {
+
+  var mode = getCookie("mode");
+  var lightToggleButton = document.getElementById("light-toggle");
+  if (mode == "light") {
+    document.body.classList.toggle("darkmode");
+    lightToggleButton.classList.toggle("fa-sun");
+    lightToggleButton.classList.toggle("fa-moon");
+    lightToggleButton.style.color = "rgba(0, 0, 0, 0.8)";
+  }
+  if (mode == "") {
+    document.cookie = "mode=dark; expires=Thu, 18 Dec 2030 12:00:00 UTC";
+  }
+  
+});
 
 function lightToggle() {
   
