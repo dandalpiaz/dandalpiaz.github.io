@@ -7,6 +7,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     lightToggleButton.classList.toggle("fa-sun");
     lightToggleButton.classList.toggle("fa-moon");
     lightToggleButton.style.color = "rgba(0, 0, 0, 0.8)";
+  } else {
+    document.cookie = "mode=dark; expires=Thu, 18 Dec 2030 12:00:00 UTC";
   }
 
 });
