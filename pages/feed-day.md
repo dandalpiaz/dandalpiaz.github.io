@@ -9,9 +9,9 @@ _So... is today `Feed Day`...?_
 
 ## Feeds
 
-- hntrending.com
+- hntrending.com (sort by top of week)
 - reddit.com/subreddits
-- reddit.com/top
+- reddit.com/top (sort by top of week)
 - twitter.com
 - youtube.com/feed/subscriptions
 
