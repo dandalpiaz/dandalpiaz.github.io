@@ -39,7 +39,7 @@ html {
 }
 
 html::before {
-    content: "Is today Feed Day??? \A If not, nothing to see here... \A \A \A hntrending.com \A reddit.com/subreddits \A reddit.com/top \A twitter.com \A youtube.com/feed/subscriptions";
+    content: "Is today Feed Day??? \A If not, nothing to see here...";
     white-space: pre-wrap;
 }
 
