@@ -70,3 +70,5 @@ body {
 - Hosts File
 - Router Rules
 - User Script Redirect (tampermonkey)
+
+[`live`](https://dandalpiaz.github.io/?page=feed-day) [`edit`](https://github.com/dandalpiaz/dandalpiaz.github.io/edit/master/pages/feed-day.md)

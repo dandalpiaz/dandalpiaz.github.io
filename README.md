@@ -16,3 +16,5 @@ Hi, my name is **Dan Dalpiaz**. I am a _Web Application Developer_ at the [Unive
 - [github.com/dandalpiaz](https://github.com/dandalpiaz)
 - [linkedin.com/in/dandalpiaz](https://www.linkedin.com/in/dandalpiaz/)
 - [twitter.com/dandalpiaz](https://twitter.com/dandalpiaz)
+
+[`live`](https://dandalpiaz.github.io/) [`edit`](https://github.com/dandalpiaz/dandalpiaz.github.io/edit/master/README.md)
