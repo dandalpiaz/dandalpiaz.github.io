@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
 	<meta charset="utf-8">
@@ -8,8 +8,25 @@
 	<link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
 	<link rel="stylesheet" href="assets/pico.min.css">
 	<script src="assets/showdown.min.js"></script>
-	<title>Dan Dalpiaz - Web Application Developer at the University of Illinois Urbana-Champaign (UIUC)</title>
+	<title>Dan Dalpiaz</title>
 	<style>
+		/* style overrides */
+
+		@media (max-width: 1199px) {
+			.container {
+				max-width: 100%;
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+		}
+
+		@media (max-width: 575px) {
+			.container {
+				padding-left: 16px;
+				padding-right: 16px;
+			}
+		}
+
 		/* increase color contrast for a11y */
 		code {
 			color: rgb(135, 150, 160);

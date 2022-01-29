@@ -15,19 +15,26 @@ _So... is today `Feed Day`...?_
 - twitter.com
 - youtube.com/feed/subscriptions
 
+## Work Feeds
+
+[[[tbd]]]
+
 ## Avoiding Feeds
 
-### User Stylesheet
+### Android
+
+- [[[Remove apps]]]
+- [[[Homepage instead of new tab on Chrome]]]
+
+### Desktop
+
+#### User Stylesheet
 
 Via the Stylus extension for Chrome.
 
 ```
 html {
-    background: url(https://pbs.twimg.com/media/Dy2YcrqWsAcb-7m?format=jpg&name=large);
     padding: 30px !important;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
     background-color: black !important;
     color:  #eee;
     text-align: center;
@@ -43,12 +50,19 @@ html::before {
     white-space: pre-wrap;
 }
 
+html:after{
+   content:url(https://pbs.twimg.com/media/Dy2YcrqWsAcb-7m?format=jpg&name=large);
+   display:block;
+   position:relative;
+   top: 30px;
+}
+
 body {
     display: none !important;
 }
 ```
 
-### Other Ideas
+#### Other Ideas
 
 - Broswer Extensions & Apps
 - Hosts File
