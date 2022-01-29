@@ -9,7 +9,7 @@ _So... is today `Feed Day`...?_
 
 ## Feeds
 
-- hntrending.com (sort by top of week)
+- news.ycombinator.com (look through past days)
 - reddit.com/subreddits
 - reddit.com/top (sort by top of week)
 - twitter.com
@@ -17,7 +17,9 @@ _So... is today `Feed Day`...?_
 
 ## Work Feeds
 
-[[[tbd]]]
+[[[These will need to be an exception]]]
+
+- [[[tbd]]]
 
 ## Avoiding Feeds
 
