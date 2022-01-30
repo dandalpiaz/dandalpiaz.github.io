@@ -9,17 +9,21 @@ _So... is today `Feed Day`...?_
 
 ## Feeds
 
-- news.ycombinator.com (look through past days)
-- reddit.com/subreddits
-- reddit.com/top (sort by top of week)
-- twitter.com
-- youtube.com/feed/subscriptions
+- [news.ycombinator.com](https://news.ycombinator.com/front) (past 7 days)
+- [reddit.com/r/all/top](https://www.reddit.com/r/all/top/) (top of week)
+- [reddit.com/subreddits](https://www.reddit.com/subreddits/) (top of week)
+- [reddit.com/top](https://www.reddit.com/top/) (top of week)
+- [twitter.com](https://twitter.com/home)
+- [youtube.com/feed/subscriptions](https://www.youtube.com/feed/subscriptions)
 
 ## Work Feeds
 
-[[[These will need to be an exception]]]
+These will be an exception
 
-- [[[tbd]]]
+- [reddit.com/r/linux](https://www.reddit.com/r/linux/)
+- [reddit.com/r/programming](https://www.reddit.com/r/programming/)
+- [reddit.com/r/webdev](https://www.reddit.com/r/webdev/)
+- [reddit.com/r/wordpress](https://www.reddit.com/r/Wordpress/)
 
 ## Avoiding Feeds
 
