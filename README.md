@@ -1,7 +1,7 @@
 
 ![Dan Dalpiaz](assets/profile.png)
 
-# Dan Dalpiaz - Web Application Developer at the University of Illinois Urbana-Champaign
+# Dan Dalpiaz - Web Application Developer at the University of Illinois Urbana-Champaign [`edit`](https://github.com/dandalpiaz/dandalpiaz.github.io/edit/master/README.md)
 
 Hi, my name is **Dan Dalpiaz**. I am a _Web Application Developer_ at the [University of Illinois Urbana-Champaign (UIUC)](http://illinois.edu/) in the University Library. I receieved a B.S. degree in [Chemistry](https://chemistry.illinois.edu/) and [Molecular and Cellular Biology](https://mcb.illinois.edu/) at UIUC.
 
@@ -16,5 +16,3 @@ Hi, my name is **Dan Dalpiaz**. I am a _Web Application Developer_ at the [Unive
 - [github.com/dandalpiaz](https://github.com/dandalpiaz)
 - [linkedin.com/in/dandalpiaz](https://www.linkedin.com/in/dandalpiaz/)
 - [twitter.com/dandalpiaz](https://twitter.com/dandalpiaz)
-
-[`live`](https://dandalpiaz.github.io/) [`edit`](https://github.com/dandalpiaz/dandalpiaz.github.io/edit/master/README.md)
