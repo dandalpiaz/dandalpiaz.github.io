@@ -87,7 +87,7 @@ client.onreadystatechange = function() {
 			var h1s = document.getElementsByTagName("h1");
 			for (var i = 0; i < h1s.length; i++) {
 			    var h1 = h1s[i];
-			    document.title = h1.innerText.replace("edit", "") + " | " + document.title;
+			    document.title = h1.innerText.replace("edit", "").replace("home", "") + " | " + document.title;
 			}
 		}
 	}
