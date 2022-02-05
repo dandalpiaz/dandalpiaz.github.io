@@ -1,7 +1,7 @@
 
 ![feed icon](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Rss-feed.svg/60px-Rss-feed.svg.png)
 
-# Feed Day [`edit`](https://github.com/dandalpiaz/dandalpiaz.github.io/edit/master/pages/feed-day.md) [`home`](/)
+# Feed Day [`edit`](https://github.com/dandalpiaz/dandalpiaz.github.io/edit/master/pages/feed-day.md) [`home`](https://dandalpiaz.github.io/)
 
 Sort of like reading a weekly (not daily) newspaper. The idea is to save time during the week, but instead of restricting feeds entirely, one day per week is designated for news/media feed viewing. Reference style searching is still okay on off days.
 

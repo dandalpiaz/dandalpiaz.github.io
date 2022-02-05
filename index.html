@@ -41,15 +41,47 @@
 		h2 {
 			margin-bottom: 1.5rem;
 		}
+
+		#light-toggle {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			padding: 5px;
+			font-size: 14px;
+			font-weight: 500;
+		}
 	</style>
 </head>
 
 <body>
 	<main role="main" class="container">
+		<a href="#" role="button" onclick="toggleLight();return false;" id="light-toggle" class="contrast">⦿ Light</a>
 		<div id="insert"></div>
 	</main>
 
 <script type="text/javascript">
+
+(function () {
+	var mode = localStorage.getItem("mode");
+	if (mode == "light") {
+		document.documentElement.setAttribute("data-theme", "light");
+		document.getElementById('light-toggle').innerHTML = "⦿ Dark";
+	}
+})();
+
+function toggleLight() {
+	var mode = localStorage.getItem("mode");
+	if (mode == "light") {
+		document.documentElement.setAttribute("data-theme", "dark");
+		document.getElementById('light-toggle').innerHTML = "⦿ Light";
+    	localStorage.setItem("mode", "dark");
+	}
+	if (mode == "dark" || mode == null) {
+		document.documentElement.setAttribute("data-theme", "light");
+		document.getElementById('light-toggle').innerHTML = "⦿ Dark";
+		localStorage.setItem("mode", "light");
+	}
+}
 
 function getParameterByName(name, url = window.location.href) {
     name = name.replace(/[\[\]]/g, '\\$&');
@@ -67,6 +99,7 @@ if (page) {
 	page = "README.md";
 }
 
+// request markdown file
 var client = new XMLHttpRequest();
 client.open('GET', page);
 client.onreadystatechange = function() {
