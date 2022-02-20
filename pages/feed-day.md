@@ -1,5 +1,5 @@
 
-![feed icon](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Rss-feed.svg/60px-Rss-feed.svg.png)
+![feed icon](assets/user/feed.png)
 
 # Feed Day
 
@@ -58,7 +58,7 @@ html::before {
     white-space: pre-wrap;
 }
 
-html:after{
+html:after {
    content:url(https://pbs.twimg.com/media/Dy2YcrqWsAcb-7m?format=jpg&name=large);
    display:block;
    position:relative;

@@ -1,5 +1,5 @@
 
-![Dan Dalpiaz](assets/home.png)
+![Dan Dalpiaz](assets/user/home.png)
 
 # Hello, World!
 
