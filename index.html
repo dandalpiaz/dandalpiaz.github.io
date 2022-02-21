@@ -7,7 +7,6 @@
 	<meta name="description" content="Dan Dalpiaz - Web Application Developer at the University of Illinois Urbana-Champaign (UIUC)">
 	<link rel="shortcut icon" type="image/png" href="assets/user/favicon.png"/>
 	<link rel="stylesheet" href="assets/core/pico.min.css">
-	<link rel="stylesheet" href="assets/core/monokai-sublime.min.css">
 	<script src="assets/core/highlight.min.js"></script>
 	<script src="assets/core/showdown.min.js"></script>
 	<title>Dan Dalpiaz</title>
@@ -62,7 +61,7 @@
 		}
 		
 		/* adjust syntax highlighting background */
-		.hljs {
+		[data-theme="dark"] .hljs {
 			background: rgb(24, 35, 44);
 		}
 
@@ -71,33 +70,41 @@
 
 <body>
 	<main role="main" class="container">
-		<a href="#" role="button" onclick="toggleLight();return false;" id="light-toggle" class="contrast">⦿ Light</a>
+		<a href="#" role="button" onclick="toggleLight();return false;" id="light-toggle" class="contrast">🌗 Light</a>
 		<div id="insert"></div>
 	</main>
 
 <script type="text/javascript">
 
-// get current light/dark mode on page load
-(function () {
-	var mode = localStorage.getItem("mode");
+// set syntax highlighting theme based on light or dark mode
+function setHighlightTheme(mode) {
+	var head = document.getElementsByTagName('HEAD')[0];
+	var link = document.createElement('link');
+	link.rel = 'stylesheet'; 
+	link.type = 'text/css';
 	if (mode == "light") {
-		document.documentElement.setAttribute("data-theme", "light");
-		document.getElementById('light-toggle').innerHTML = "⦿ Dark";
+		link.href = 'assets/core/atom-one-light.min.css'; 
 	}
-})();
+	if (mode == "dark") {
+		link.href = 'assets/core/monokai-sublime.min.css'; 
+	}
+	head.appendChild(link);
+}
 
 // toggle between light and dark mode
 function toggleLight() {
 	var mode = localStorage.getItem("mode");
 	if (mode == "light") {
 		document.documentElement.setAttribute("data-theme", "dark");
-		document.getElementById('light-toggle').innerHTML = "⦿ Light";
+		document.getElementById('light-toggle').innerHTML = "🌗 Light";
     	localStorage.setItem("mode", "dark");
+		setHighlightTheme("dark");
 	}
 	if (mode == "dark" || mode == null) {
 		document.documentElement.setAttribute("data-theme", "light");
-		document.getElementById('light-toggle').innerHTML = "⦿ Dark";
+		document.getElementById('light-toggle').innerHTML = "🌗 Dark";
 		localStorage.setItem("mode", "light");
+		setHighlightTheme("light");
 	}
 }
 
@@ -152,6 +159,18 @@ client.onreadystatechange = function() {
 	}
 }
 client.send();
+
+// get current light/dark mode on page load
+(function () {
+	var mode = localStorage.getItem("mode");
+	if (mode == "light") {
+		document.documentElement.setAttribute("data-theme", "light");
+		document.getElementById('light-toggle').innerHTML = "🌗 Dark";
+		setHighlightTheme("light");
+	} else {
+		setHighlightTheme("dark");
+	}
+})();
 
 </script>
 </body>
