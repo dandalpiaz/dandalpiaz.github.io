@@ -1,5 +1,5 @@
 
-![feed icon](assets/user/feed.png)
+![feed icon](../assets/user/feed.png)
 
 # Feed Day
 
