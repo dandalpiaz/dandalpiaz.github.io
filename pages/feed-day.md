@@ -20,7 +20,7 @@ _So... is today Feed Day...?_
 
 ## Work Feeds
 
-These will be an exception
+These will be an exception.
 
 - [reddit.com/r/linux](https://www.reddit.com/r/linux/)
 - [reddit.com/r/programming](https://www.reddit.com/r/programming/)
@@ -31,8 +31,8 @@ These will be an exception
 
 ### Android
 
-- [[[Remove apps]]]
-- [[[Homepage instead of new tab on Chrome]]]
+- Uninstall feed-based apps, remove default apps from homescreen (e.g. YouTube)
+- Set Chrome's homepage to Google, instead of new tab page (avoids previously visited web-based versions of feed sites)
 
 ### Desktop
 
