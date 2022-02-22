@@ -1,5 +1,5 @@
 
-![keyboard shortcuts](assets/user/code.png)
+![keyboard shortcuts](../assets/user/code.png)
 
 # Keyboard Shortcuts
 
