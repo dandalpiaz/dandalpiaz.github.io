@@ -1,5 +1,5 @@
 
-![hello world](../assets/user/draw.svg)
+![hello world](assets/user/draw.svg)
 
 # Hello, World!
 
