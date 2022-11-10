@@ -1,11 +1,9 @@
 
-![hello world](assets/user/draw.svg)
+# Hi,
 
-# Hello, World!
+My name is **Dan Dalpiaz**. I am a _Web Application Developer_ at the University of Illinois Urbana-Champaign (UIUC) in the University Library. I receieved a B.S. degree in Chemistry and Molecular and Cellular Biology at UIUC.
 
-_`Last Updated: 6/3/2022`_ [`edit`](https://github.com/dandalpiaz/dandalpiaz.github.io/edit/master/README.md)
-
-Hi, my name is **Dan Dalpiaz**. I am a _Web Application Developer_ at the University of Illinois Urbana-Champaign (UIUC) in the University Library. I receieved a B.S. degree in Chemistry and Molecular and Cellular Biology at UIUC.
+_`Last Updated: 11/9/2022`_ [`edit`](https://github.com/dandalpiaz/dandalpiaz.github.io/edit/master/README.md)
 
 ## Web
 
@@ -17,8 +15,6 @@ Selected projects I’ve worked on over the years; dates are approximate.
 - [Transit CU](https://transitcu.herokuapp.com/) - bus times application for the Champaign–Urbana Mass Transit District (_2018_)
 - [LAS Websites](https://atlas.illinois.edu/services/las-department-websites) - contributed to framework for departmental sites at Illinois (_2016-2019_)
 - [Academic Calendar](https://dandalpiaz.github.io/academic-calendar/2015.html) - calendar tool for viewing semester schedules at Illinois (_2015_)
-- [Home HTML](https://dandalpiaz.github.io/home-html/home.html) - template for a link-based homepage (_2014_)
-<!--- Play Your Music - play music files stored in Google Drive (_2019_)-->
 
 ## Music
 
