@@ -16,13 +16,6 @@ Selected projects I’ve worked on over the years; dates are approximate.
 - [LAS Websites](https://atlas.illinois.edu/services/las-department-websites) - contributed to framework for departmental sites at Illinois (_2016-2019_)
 - [Academic Calendar](https://dandalpiaz.github.io/academic-calendar/2015.html) - calendar tool for viewing semester schedules at Illinois (_2015_)
 
-## Music
-
-- [Last Christmas](https://www.youtube.com/watch?v=TiUl5K99FXU) - (_2020_, [wav file](assets/user/last-christmas.wav))
-- [OSS](https://www.youtube.com/watch?v=eokQGbBhNls) - (_2020_, [wav file](assets/user/oss.wav))
-- [Goonie](https://www.youtube.com/watch?v=LlSPOV_h9s8) - (_2018_, [wav file](assets/user/goonie.wav), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
-- [Rocker](https://www.youtube.com/watch?v=_OXw967BGUY) - (_2018_, [wav file](assets/user/rocker.wav), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
-
 ## Contact
 
 - [dalpiaz.dan@gmail.com](mailto:dalpiaz.dan@gmail.com)
