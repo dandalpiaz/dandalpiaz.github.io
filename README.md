@@ -3,7 +3,7 @@
 
 My name is **Dan Dalpiaz**. I am a _Web Application Developer_ at the University of Illinois Urbana-Champaign (UIUC) in the University Library. I receieved a B.S. degree in Chemistry and Molecular and Cellular Biology at UIUC.
 
-_`Last Updated: 11/9/2022`_ [`edit`](https://github.com/dandalpiaz/dandalpiaz.github.io/edit/master/README.md)
+_`Last Updated: 1/25/2023`_ [`edit`](https://github.com/dandalpiaz/dandalpiaz.github.io/edit/master/README.md)
 
 ## Web
 
