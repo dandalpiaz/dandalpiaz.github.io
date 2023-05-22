@@ -20,4 +20,3 @@ Selected projects I’ve worked on over the years; dates are approximate.
 
 - [dalpiaz.dan@gmail.com](mailto:dalpiaz.dan@gmail.com)
 - [github.com/dandalpiaz](https://github.com/dandalpiaz)
-- [linkedin.com/in/dandalpiaz](https://www.linkedin.com/in/dandalpiaz/)
