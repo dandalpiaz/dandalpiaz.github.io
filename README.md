@@ -10,7 +10,7 @@ _`Last Updated: 12/8/2023`_ [`edit`](https://github.com/dandalpiaz/dandalpiaz.gi
 Selected projects I’ve worked on over the years. 
 
 - [Markdown Pages](https://dandalpiaz.github.io/markdown-pages/) - simple template for Markdown-based sites on GitHub Pages
-- [Drive Music Player](https://dandalpiaz.github.io/drive-music-player/) - browser-based music player for Google Drive
+- [Drive Music Player](https://dandalpiaz.github.io/drive-music-player/) - browser-based music player for Google Drive (WIP)
 - [ORCID @ Illinois](https://orcid.library.illinois.edu/) - integration to connect user ORCID iDs to campus directory
 - [The Non-Fictions](https://thenonfictions.com/) - landing page for Illinois-based band
 - [LAS Websites](https://atlas.illinois.edu/services/las-department-websites) - contributed to framework for departmental sites at Illinois
