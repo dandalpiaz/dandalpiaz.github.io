@@ -17,5 +17,5 @@ Selected projects I’ve worked on over the years.
 
 ## Contact
 
-- [dalpiaz.dan@gmail.com](mailto:dalpiaz.dan@gmail.com)
+- [dalpiaz1@illinois.edu](mailto:dalpiaz1@illinois.edu)
 - [github.com/dandalpiaz](https://github.com/dandalpiaz)
