@@ -3,7 +3,7 @@
 
 My name is **Dan Dalpiaz**. I'm a Web Developer at the [University of Illinois Urbana-Champaign](https://www.illinois.edu/) (UIUC) in the [University Library](https://www.library.illinois.edu/). I receieved a B.S. degree in Chemistry and Molecular & Cellular Biology at UIUC and am a [Certified Professional in Accessibility Core Competencies (CPACC)](https://www.credly.com/badges/f9d01b2d-f567-4348-9491-2bbb3235b107/public_url).
 
-_`Last Updated: 3/29/2026`_ [`edit`](https://github.com/dandalpiaz/dandalpiaz.github.io/edit/main/README.md) <button id="light-toggle" onclick="toggleLight()" aria-label="toggle color mode">🌗</button>
+_`Last Updated: 3/29/2026`_ [`edit`](https://github.com/dandalpiaz/dandalpiaz.github.io/edit/main/README.md) <button id="light-toggle" onclick="toggleLight()" aria-label="switch to light mode">🌗</button>
 
 ## Web
 
